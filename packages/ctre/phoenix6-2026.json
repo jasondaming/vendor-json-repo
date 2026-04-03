@@ -1,0 +1,54 @@
+{
+  "id": "ctre.phoenix6",
+  "name": "CTRE Phoenix 6",
+  "version": "26.1.0",
+  "season": 2026,
+  "publisher": "ctre",
+  "description": "Phoenix 6 vendor library for CTRE motor controllers, sensors, and LED controllers.",
+  "category": "library",
+  "tags": [
+    "ctre",
+    "phoenix6",
+    "talonfx",
+    "canbus",
+    "vendordep"
+  ],
+  "competition": "Frc",
+  "license": "Proprietary",
+  "homepage": "https://docs.ctr-electronics.com/",
+  "artifacts": {
+    "universal": {
+      "url": "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/latest/Phoenix6-frc2026-latest.json",
+      "sha256": "placeholder-phoenix6-universal",
+      "size": 15000
+    }
+  },
+  "mavenArtifacts": {
+    "vendordepJson": "2026/Phoenix6-26.1.0.json",
+    "repositories": [
+      "https://maven.ctr-electronics.com/release/"
+    ],
+    "coordinates": [
+      {
+        "groupId": "com.ctre.phoenix6",
+        "artifactId": "wpiapi-java",
+        "version": "26.1.0"
+      },
+      {
+        "groupId": "com.ctre.phoenix6",
+        "artifactId": "wpiapi-cpp",
+        "version": "26.1.0"
+      },
+      {
+        "groupId": "com.ctre.phoenix6",
+        "artifactId": "api-cpp",
+        "version": "26.1.0"
+      },
+      {
+        "groupId": "com.ctre.phoenix6",
+        "artifactId": "tools",
+        "version": "26.1.0"
+      }
+    ]
+  }
+}

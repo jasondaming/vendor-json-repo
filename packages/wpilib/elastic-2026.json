@@ -1,0 +1,47 @@
+{
+  "id": "wpilib.elastic",
+  "name": "Elastic Dashboard v2026.1.1",
+  "version": "2026.1.1",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Modern, customizable FRC dashboard built with Flutter for real-time robot telemetry.",
+  "category": "dashboard",
+  "tags": [
+    "elastic",
+    "dashboard",
+    "telemetry"
+  ],
+  "competition": "Frc",
+  "license": "MIT",
+  "homepage": "https://github.com/Gold872/elastic-dashboard",
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/Gold872/elastic-dashboard/releases/download/v2026.1.1/elastic-windows-x64-v2026.1.1.zip",
+      "sha256": "placeholder-elastic-windows-x64",
+      "size": 45000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/Gold872/elastic-dashboard/releases/download/v2026.1.1/elastic-linux-x64-v2026.1.1.tar.gz",
+      "sha256": "placeholder-elastic-linux-x64",
+      "size": 43000000,
+      "archiveType": "tar.gz"
+    },
+    "macos-x64": {
+      "url": "https://github.com/Gold872/elastic-dashboard/releases/download/v2026.1.1/elastic-macos-x64-v2026.1.1.dmg",
+      "sha256": "placeholder-elastic-macos-x64",
+      "size": 44000000,
+      "archiveType": "zip"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/Gold872/elastic-dashboard/releases/download/v2026.1.1/elastic-macos-arm64-v2026.1.1.dmg",
+      "sha256": "placeholder-elastic-macos-arm64",
+      "size": 42000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "elastic",
+    "requiresAdmin": false
+  }
+}

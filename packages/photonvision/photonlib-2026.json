@@ -1,0 +1,55 @@
+{
+  "id": "photonvision.photonlib",
+  "name": "PhotonLib",
+  "version": "v2026.1.0",
+  "season": 2026,
+  "publisher": "photonvision",
+  "description": "PhotonVision vendor library for vision-based pose estimation and AprilTag detection.",
+  "category": "library",
+  "tags": [
+    "photonvision",
+    "vision",
+    "apriltag",
+    "camera",
+    "vendordep"
+  ],
+  "competition": "Frc",
+  "license": "GPL-3.0-only",
+  "homepage": "https://docs.photonvision.org/en/latest/",
+  "artifacts": {
+    "universal": {
+      "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-json/1.0/photonlib-json-1.0.json",
+      "sha256": "placeholder-photonlib-universal",
+      "size": 4000
+    }
+  },
+  "mavenArtifacts": {
+    "vendordepJson": "2026/photonlib-v2026.1.0.json",
+    "repositories": [
+      "https://maven.photonvision.org/repository/internal",
+      "https://maven.photonvision.org/repository/snapshots"
+    ],
+    "coordinates": [
+      {
+        "groupId": "org.photonvision",
+        "artifactId": "photonlib-java",
+        "version": "v2026.1.0"
+      },
+      {
+        "groupId": "org.photonvision",
+        "artifactId": "photontargeting-java",
+        "version": "v2026.1.0"
+      },
+      {
+        "groupId": "org.photonvision",
+        "artifactId": "photonlib-cpp",
+        "version": "v2026.1.0"
+      },
+      {
+        "groupId": "org.photonvision",
+        "artifactId": "photontargeting-cpp",
+        "version": "v2026.1.0"
+      }
+    ]
+  }
+}

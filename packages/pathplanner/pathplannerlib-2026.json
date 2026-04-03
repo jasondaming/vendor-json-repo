@@ -1,0 +1,43 @@
+{
+  "id": "pathplanner.pathplannerlib",
+  "name": "PathPlannerLib",
+  "version": "2026.1.0",
+  "season": 2026,
+  "publisher": "pathplanner",
+  "description": "PathPlanner robot-side vendor library for autonomous path following and generation.",
+  "category": "library",
+  "tags": [
+    "pathplanner",
+    "autonomous",
+    "trajectory",
+    "vendordep"
+  ],
+  "competition": "Frc",
+  "license": "MIT",
+  "homepage": "https://pathplanner.dev/pathplannerlib.html",
+  "artifacts": {
+    "universal": {
+      "url": "https://3015rangerrobotics.github.io/pathplannerlib/PathplannerLib.json",
+      "sha256": "placeholder-pplib-universal",
+      "size": 3000
+    }
+  },
+  "mavenArtifacts": {
+    "vendordepJson": "2026/PathplannerLib-2026.1.0.json",
+    "repositories": [
+      "https://3015rangerrobotics.github.io/pathplannerlib/repo"
+    ],
+    "coordinates": [
+      {
+        "groupId": "com.pathplanner.lib",
+        "artifactId": "PathplannerLib-java",
+        "version": "2026.1.0"
+      },
+      {
+        "groupId": "com.pathplanner.lib",
+        "artifactId": "PathplannerLib-cpp",
+        "version": "2026.1.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "community.yagsl",
+  "name": "YAGSL",
+  "version": "2026.1.0",
+  "season": 2026,
+  "publisher": "community",
+  "description": "Yet Another Generic Swerve Library - simplifies swerve drive configuration and control.",
+  "category": "library",
+  "tags": [
+    "yagsl",
+    "swerve",
+    "drivetrain",
+    "vendordep"
+  ],
+  "competition": "Frc",
+  "license": "MIT",
+  "homepage": "https://docs.yagsl.com/",
+  "dependencies": [
+    {
+      "id": "rev.revlib",
+      "versionRange": ">=2026.0.0",
+      "type": "Required",
+      "reason": "REVLib required for SPARK controllers"
+    },
+    {
+      "id": "ctre.phoenix6",
+      "versionRange": ">=26.0.0",
+      "type": "Required",
+      "reason": "Phoenix6 required for TalonFX controllers"
+    }
+  ],
+  "artifacts": {
+    "universal": {
+      "url": "https://broncbotz3481.github.io/YAGSL-Lib/yagsl/yagsl.json",
+      "sha256": "placeholder-yagsl-universal",
+      "size": 5000
+    }
+  },
+  "mavenArtifacts": {
+    "vendordepJson": "2026/yagsl-2026.1.0.json",
+    "repositories": [
+      "https://broncbotz3481.github.io/YAGSL-Lib/yagsl/repos"
+    ],
+    "coordinates": [
+      {
+        "groupId": "swervelib",
+        "artifactId": "YAGSL-java",
+        "version": "2026.1.0"
+      }
+    ]
+  }
+}

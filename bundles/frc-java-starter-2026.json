@@ -1,0 +1,70 @@
+{
+  "id": "frc-java-starter-2026",
+  "name": "FRC Java Starter Kit 2026",
+  "season": 2026,
+  "description": "Complete development environment for FRC Java teams. Includes JDK, VS Code, WPILib framework, development tools, and dashboards. Optional vendor libraries for motors, sensors, and autonomous.",
+  "competition": "Frc",
+  "audience": "beginner",
+  "packages": [
+    {
+      "id": "wpilib.jdk",
+      "inclusion": "Required",
+      "reason": "Java runtime and compiler required for all Java FRC projects"
+    },
+    {
+      "id": "wpilib.vscode",
+      "inclusion": "Required",
+      "reason": "Primary IDE for FRC development"
+    },
+    {
+      "id": "wpilib.gradlerio",
+      "inclusion": "Required",
+      "reason": "Core WPILib framework and build system"
+    },
+    {
+      "id": "wpilib.tools",
+      "inclusion": "Default",
+      "reason": "Glass, SysId, and other development tools"
+    },
+    {
+      "id": "wpilib.advantagescope",
+      "inclusion": "Default",
+      "reason": "Data visualization and log review"
+    },
+    {
+      "id": "wpilib.elastic",
+      "inclusion": "Default",
+      "reason": "Modern FRC dashboard"
+    },
+    {
+      "id": "ctre.phoenix6",
+      "inclusion": "Optional",
+      "reason": "Required for teams using CTRE TalonFX, CANcoder, Pigeon 2"
+    },
+    {
+      "id": "rev.revlib",
+      "inclusion": "Optional",
+      "reason": "Required for teams using REV SPARK MAX or SPARK Flex"
+    },
+    {
+      "id": "pathplanner.pathplannerlib",
+      "inclusion": "Optional",
+      "reason": "Popular autonomous path planning library"
+    },
+    {
+      "id": "photonvision.photonlib",
+      "inclusion": "Optional",
+      "reason": "Vision processing with PhotonVision cameras"
+    },
+    {
+      "id": "community.yagsl",
+      "inclusion": "Optional",
+      "reason": "Simplified swerve drive configuration"
+    },
+    {
+      "id": "community.advantagekit",
+      "inclusion": "Optional",
+      "reason": "Advanced logging and simulation replay"
+    }
+  ]
+}

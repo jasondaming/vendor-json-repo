@@ -1,0 +1,76 @@
+{
+  "id": "wpilib.gradlerio",
+  "name": "GradleRIO 2026.2.1",
+  "version": "2026.2.1",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "WPILib core framework and GradleRIO build plugin for FRC robot development.",
+  "category": "framework",
+  "tags": [
+    "wpilib",
+    "gradlerio",
+    "robot",
+    "framework"
+  ],
+  "competition": "Frc",
+  "license": "BSD-3-Clause",
+  "homepage": "https://docs.wpilib.org/",
+  "repository": "https://github.com/wpilibsuite/allwpilib",
+  "dependencies": [
+    {
+      "id": "wpilib.jdk",
+      "versionRange": ">=17.0.0",
+      "type": "Required",
+      "reason": "Java runtime for Gradle builds"
+    }
+  ],
+  "artifacts": {
+    "universal": {
+      "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/GradleRIO/2026.2.1/GradleRIO-2026.2.1.zip",
+      "sha256": "placeholder-gradlerio-universal",
+      "size": 25000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "gradlerio",
+    "requiresAdmin": false
+  },
+  "mavenArtifacts": {
+    "repositories": [
+      "https://frcmaven.wpi.edu/artifactory/release/"
+    ],
+    "coordinates": [
+      {
+        "groupId": "edu.wpi.first",
+        "artifactId": "GradleRIO",
+        "version": "2026.2.1"
+      },
+      {
+        "groupId": "edu.wpi.first.wpilibj",
+        "artifactId": "wpilibj-java",
+        "version": "2026.2.1"
+      },
+      {
+        "groupId": "edu.wpi.first.hal",
+        "artifactId": "hal-java",
+        "version": "2026.2.1"
+      },
+      {
+        "groupId": "edu.wpi.first.ntcore",
+        "artifactId": "ntcore-java",
+        "version": "2026.2.1"
+      },
+      {
+        "groupId": "edu.wpi.first.wpimath",
+        "artifactId": "wpimath-java",
+        "version": "2026.2.1"
+      },
+      {
+        "groupId": "edu.wpi.first.wpiutil",
+        "artifactId": "wpiutil-java",
+        "version": "2026.2.1"
+      }
+    ]
+  }
+}

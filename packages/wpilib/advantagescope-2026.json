@@ -1,0 +1,55 @@
+{
+  "id": "wpilib.advantagescope",
+  "name": "AdvantageScope v26.0.0",
+  "version": "26.0.0",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Robot diagnostics, log review, and data visualization application for FRC.",
+  "category": "dashboard",
+  "tags": [
+    "advantagescope",
+    "logging",
+    "diagnostics",
+    "visualization"
+  ],
+  "competition": "Frc",
+  "license": "MIT",
+  "homepage": "https://docs.advantagescope.org/",
+  "repository": "https://github.com/Mechanical-Advantage/AdvantageScope",
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v26.0.0/advantagescope-win-x64-v26.0.0.zip",
+      "sha256": "placeholder-ascope-windows-x64",
+      "size": 95000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v26.0.0/advantagescope-linux-x64-v26.0.0.tar.gz",
+      "sha256": "placeholder-ascope-linux-x64",
+      "size": 92000000,
+      "archiveType": "tar.gz"
+    },
+    "linux-arm64": {
+      "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v26.0.0/advantagescope-linux-arm64-v26.0.0.tar.gz",
+      "sha256": "placeholder-ascope-linux-arm64",
+      "size": 90000000,
+      "archiveType": "tar.gz"
+    },
+    "macos-x64": {
+      "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v26.0.0/advantagescope-mac-x64-v26.0.0.dmg",
+      "sha256": "placeholder-ascope-macos-x64",
+      "size": 93000000,
+      "archiveType": "zip"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/Mechanical-Advantage/AdvantageScope/releases/download/v26.0.0/advantagescope-mac-arm64-v26.0.0.dmg",
+      "sha256": "placeholder-ascope-macos-arm64",
+      "size": 91000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "advantagescope",
+    "requiresAdmin": false
+  }
+}

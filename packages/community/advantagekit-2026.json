@@ -1,0 +1,45 @@
+{
+  "id": "community.advantagekit",
+  "name": "AdvantageKit",
+  "version": "5.0.0",
+  "season": 2026,
+  "publisher": "community",
+  "description": "Logging and simulation replay framework for FRC robot programs.",
+  "category": "library",
+  "tags": [
+    "advantagekit",
+    "logging",
+    "replay",
+    "simulation",
+    "vendordep"
+  ],
+  "competition": "Frc",
+  "license": "GPL-3.0-only",
+  "homepage": "https://docs.advantagekit.org",
+  "repository": "https://github.com/Mechanical-Advantage/AdvantageKit",
+  "artifacts": {
+    "universal": {
+      "url": "https://github.com/Mechanical-Advantage/AdvantageKit/releases/latest/download/AdvantageKit.json",
+      "sha256": "placeholder-akit-universal",
+      "size": 3000
+    }
+  },
+  "mavenArtifacts": {
+    "vendordepJson": "2026/AdvantageKit-5.0.0.json",
+    "repositories": [
+      "https://frcmaven.wpi.edu/artifactory/littletonrobotics-mvn-release/"
+    ],
+    "coordinates": [
+      {
+        "groupId": "org.littletonrobotics.akit",
+        "artifactId": "akit-java",
+        "version": "5.0.0"
+      },
+      {
+        "groupId": "org.littletonrobotics.akit",
+        "artifactId": "akit-wpilibio",
+        "version": "5.0.0"
+      }
+    ]
+  }
+}

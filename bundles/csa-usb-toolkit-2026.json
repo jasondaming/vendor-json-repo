@@ -1,0 +1,30 @@
+{
+  "id": "csa-usb-toolkit-2026",
+  "name": "CSA USB Toolkit 2026",
+  "season": 2026,
+  "description": "Portable toolkit for Control System Advisors (CSAs) at FRC events. Contains diagnostic tools, dashboards, and network utilities for field troubleshooting.",
+  "competition": "Frc",
+  "audience": "advanced",
+  "packages": [
+    {
+      "id": "wpilib.jdk",
+      "inclusion": "Required",
+      "reason": "Java runtime for tools"
+    },
+    {
+      "id": "wpilib.tools",
+      "inclusion": "Required",
+      "reason": "Glass and diagnostic utilities"
+    },
+    {
+      "id": "wpilib.advantagescope",
+      "inclusion": "Required",
+      "reason": "Log review and diagnostics"
+    },
+    {
+      "id": "wpilib.elastic",
+      "inclusion": "Default",
+      "reason": "Dashboard for quick telemetry checks"
+    }
+  ]
+}

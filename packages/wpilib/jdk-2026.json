@@ -1,0 +1,70 @@
+{
+  "id": "wpilib.jdk",
+  "name": "JDK 17.0.16+8",
+  "version": "17.0.16+8",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Eclipse Temurin JDK 17 for FRC Java development.",
+  "category": "runtime",
+  "tags": [
+    "java",
+    "jdk",
+    "temurin",
+    "runtime"
+  ],
+  "competition": "Frc",
+  "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+  "homepage": "https://adoptium.net/",
+  "repository": "https://github.com/adoptium/temurin17-binaries",
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip",
+      "sha256": "placeholder-jdk-windows-x64",
+      "size": 191000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "placeholder-jdk-linux-x64",
+      "size": 188000000,
+      "archiveType": "tar.gz"
+    },
+    "linux-arm64": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.16_8.tar.gz",
+      "sha256": "placeholder-jdk-linux-arm64",
+      "size": 185000000,
+      "archiveType": "tar.gz"
+    },
+    "macos-x64": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_x64_mac_hotspot_17.0.16_8.tar.gz",
+      "sha256": "placeholder-jdk-macos-x64",
+      "size": 187000000,
+      "archiveType": "tar.gz"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.16%2B8/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.16_8.tar.gz",
+      "sha256": "placeholder-jdk-macos-arm64",
+      "size": 185000000,
+      "archiveType": "tar.gz"
+    }
+  },
+  "install": {
+    "installDir": "jdk",
+    "requiresAdmin": false,
+    "postInstall": [
+      {
+        "action": "set-env",
+        "params": {
+          "name": "JAVA_HOME",
+          "value": "${installDir}/jdk-17.0.16+8"
+        }
+      },
+      {
+        "action": "add-to-path",
+        "params": {
+          "path": "${installDir}/jdk-17.0.16+8/bin"
+        }
+      }
+    ]
+  }
+}

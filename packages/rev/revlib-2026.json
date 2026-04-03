@@ -1,0 +1,49 @@
+{
+  "id": "rev.revlib",
+  "name": "REVLib",
+  "version": "2026.0.1",
+  "season": 2026,
+  "publisher": "rev",
+  "description": "REV Robotics vendor library for SPARK Flex, SPARK MAX, and Color Sensor V3.",
+  "category": "library",
+  "tags": [
+    "rev",
+    "revlib",
+    "spark",
+    "motor-controller",
+    "vendordep"
+  ],
+  "competition": "Frc",
+  "license": "Proprietary",
+  "homepage": "https://docs.revrobotics.com/brushless/revlib/revlib-overview",
+  "artifacts": {
+    "universal": {
+      "url": "https://software-metadata.revrobotics.com/REVLib-2026.json",
+      "sha256": "placeholder-revlib-universal",
+      "size": 5000
+    }
+  },
+  "mavenArtifacts": {
+    "vendordepJson": "2026/REVLib-2026.0.1.json",
+    "repositories": [
+      "https://maven.revrobotics.com/"
+    ],
+    "coordinates": [
+      {
+        "groupId": "com.revrobotics.frc",
+        "artifactId": "REVLib-java",
+        "version": "2026.0.1"
+      },
+      {
+        "groupId": "com.revrobotics.frc",
+        "artifactId": "REVLib-cpp",
+        "version": "2026.0.1"
+      },
+      {
+        "groupId": "com.revrobotics.frc",
+        "artifactId": "REVLib-driver",
+        "version": "2026.0.1"
+      }
+    ]
+  }
+}

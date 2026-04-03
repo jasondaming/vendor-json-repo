@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-04-03T00:00:00Z",
+  "seasons": [
+    {
+      "year": 2026,
+      "status": "active",
+      "kickoffDate": "2026-01-03T12:00:00Z"
+    },
+    {
+      "year": 2025,
+      "status": "archived",
+      "kickoffDate": "2025-01-04T12:00:00Z"
+    }
+  ],
+  "publishers": [
+    {
+      "id": "wpilib",
+      "name": "WPILib",
+      "trusted": true
+    },
+    {
+      "id": "ctre",
+      "name": "Cross The Road Electronics",
+      "trusted": true
+    },
+    {
+      "id": "rev",
+      "name": "REV Robotics",
+      "trusted": true
+    },
+    {
+      "id": "pathplanner",
+      "name": "PathPlanner (3015)",
+      "trusted": true
+    },
+    {
+      "id": "photonvision",
+      "name": "PhotonVision",
+      "trusted": true
+    },
+    {
+      "id": "community",
+      "name": "Community Libraries",
+      "trusted": false
+    }
+  ],
+  "packages": [
+    {
+      "id": "wpilib.jdk",
+      "name": "JDK 17.0.16+8",
+      "season": 2026,
+      "version": "17.0.16+8",
+      "category": "runtime",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "java",
+        "jdk",
+        "temurin",
+        "runtime"
+      ],
+      "description": "Eclipse Temurin JDK 17 for FRC Java development.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/jdk-2026.json"
+    },
+    {
+      "id": "wpilib.vscode",
+      "name": "VS Code 1.105.1",
+      "season": 2026,
+      "version": "1.105.1",
+      "category": "ide",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "vscode",
+        "editor",
+        "ide"
+      ],
+      "description": "Visual Studio Code editor configured for FRC development with WPILib extensions.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/vscode-2026.json"
+    },
+    {
+      "id": "wpilib.gradlerio",
+      "name": "GradleRIO 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "framework",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "wpilib",
+        "gradlerio",
+        "robot",
+        "framework"
+      ],
+      "description": "WPILib core framework and GradleRIO build plugin for FRC robot development.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/gradlerio-2026.json"
+    },
+    {
+      "id": "wpilib.tools",
+      "name": "WPILib Tools 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "glass",
+        "sysid",
+        "robotbuilder",
+        "tools"
+      ],
+      "description": "WPILib tools suite: Glass, OutlineViewer, SysId, RobotBuilder, DataLogTool.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/tools-2026.json"
+    },
+    {
+      "id": "wpilib.advantagescope",
+      "name": "AdvantageScope v26.0.0",
+      "season": 2026,
+      "version": "26.0.0",
+      "category": "dashboard",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "advantagescope",
+        "logging",
+        "diagnostics",
+        "visualization"
+      ],
+      "description": "Robot diagnostics, log review, and data visualization application for FRC.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/advantagescope-2026.json"
+    },
+    {
+      "id": "wpilib.elastic",
+      "name": "Elastic Dashboard v2026.1.1",
+      "season": 2026,
+      "version": "2026.1.1",
+      "category": "dashboard",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "elastic",
+        "dashboard",
+        "telemetry"
+      ],
+      "description": "Modern, customizable FRC dashboard built with Flutter for real-time robot telemetry.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/elastic-2026.json"
+    },
+    {
+      "id": "ctre.phoenix6",
+      "name": "CTRE Phoenix 6",
+      "season": 2026,
+      "version": "26.1.0",
+      "category": "library",
+      "competition": "Frc",
+      "publisherId": "ctre",
+      "tags": [
+        "ctre",
+        "phoenix6",
+        "talonfx",
+        "canbus",
+        "vendordep"
+      ],
+      "description": "Phoenix 6 vendor library for CTRE motor controllers, sensors, and LED controllers.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/ctre/phoenix6-2026.json"
+    },
+    {
+      "id": "rev.revlib",
+      "name": "REVLib",
+      "season": 2026,
+      "version": "2026.0.1",
+      "category": "library",
+      "competition": "Frc",
+      "publisherId": "rev",
+      "tags": [
+        "rev",
+        "revlib",
+        "spark",
+        "motor-controller",
+        "vendordep"
+      ],
+      "description": "REV Robotics vendor library for SPARK Flex, SPARK MAX, and Color Sensor V3.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/rev/revlib-2026.json"
+    },
+    {
+      "id": "pathplanner.pathplannerlib",
+      "name": "PathPlannerLib",
+      "season": 2026,
+      "version": "2026.1.0",
+      "category": "library",
+      "competition": "Frc",
+      "publisherId": "pathplanner",
+      "tags": [
+        "pathplanner",
+        "autonomous",
+        "trajectory",
+        "vendordep"
+      ],
+      "description": "PathPlanner robot-side vendor library for autonomous path following and generation.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/pathplanner/pathplannerlib-2026.json"
+    },
+    {
+      "id": "photonvision.photonlib",
+      "name": "PhotonLib",
+      "season": 2026,
+      "version": "v2026.1.0",
+      "category": "library",
+      "competition": "Frc",
+      "publisherId": "photonvision",
+      "tags": [
+        "photonvision",
+        "vision",
+        "apriltag",
+        "camera",
+        "vendordep"
+      ],
+      "description": "PhotonVision vendor library for vision-based pose estimation and AprilTag detection.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/photonvision/photonlib-2026.json"
+    },
+    {
+      "id": "community.yagsl",
+      "name": "YAGSL",
+      "season": 2026,
+      "version": "2026.1.0",
+      "category": "library",
+      "competition": "Frc",
+      "publisherId": "community",
+      "tags": [
+        "yagsl",
+        "swerve",
+        "drivetrain",
+        "vendordep"
+      ],
+      "description": "Yet Another Generic Swerve Library - simplifies swerve drive configuration and control.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/community/yagsl-2026.json"
+    },
+    {
+      "id": "community.advantagekit",
+      "name": "AdvantageKit",
+      "season": 2026,
+      "version": "5.0.0",
+      "category": "library",
+      "competition": "Frc",
+      "publisherId": "community",
+      "tags": [
+        "advantagekit",
+        "logging",
+        "replay",
+        "simulation",
+        "vendordep"
+      ],
+      "description": "Logging and simulation replay framework for FRC robot programs.",
+      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/community/advantagekit-2026.json"
+    }
+  ]
+}
