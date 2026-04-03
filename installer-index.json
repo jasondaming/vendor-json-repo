@@ -61,7 +61,7 @@
         "runtime"
       ],
       "description": "Eclipse Temurin JDK 17 for FRC Java development.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/jdk-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/jdk-2026.json"
     },
     {
       "id": "wpilib.vscode",
@@ -77,7 +77,7 @@
         "ide"
       ],
       "description": "Visual Studio Code editor configured for FRC development with WPILib extensions.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/vscode-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/vscode-2026.json"
     },
     {
       "id": "wpilib.gradlerio",
@@ -94,7 +94,7 @@
         "framework"
       ],
       "description": "WPILib core framework and GradleRIO build plugin for FRC robot development.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/gradlerio-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/gradlerio-2026.json"
     },
     {
       "id": "wpilib.tools",
@@ -111,7 +111,7 @@
         "tools"
       ],
       "description": "WPILib tools suite: Glass, OutlineViewer, SysId, RobotBuilder, DataLogTool.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/tools-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/tools-2026.json"
     },
     {
       "id": "wpilib.advantagescope",
@@ -128,7 +128,7 @@
         "visualization"
       ],
       "description": "Robot diagnostics, log review, and data visualization application for FRC.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/advantagescope-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/advantagescope-2026.json"
     },
     {
       "id": "wpilib.elastic",
@@ -144,7 +144,7 @@
         "telemetry"
       ],
       "description": "Modern, customizable FRC dashboard built with Flutter for real-time robot telemetry.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/wpilib/elastic-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/elastic-2026.json"
     },
     {
       "id": "ctre.phoenix6",
@@ -162,7 +162,7 @@
         "vendordep"
       ],
       "description": "Phoenix 6 vendor library for CTRE motor controllers, sensors, and LED controllers.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/ctre/phoenix6-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/ctre/phoenix6-2026.json"
     },
     {
       "id": "rev.revlib",
@@ -180,7 +180,7 @@
         "vendordep"
       ],
       "description": "REV Robotics vendor library for SPARK Flex, SPARK MAX, and Color Sensor V3.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/rev/revlib-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/rev/revlib-2026.json"
     },
     {
       "id": "pathplanner.pathplannerlib",
@@ -197,7 +197,7 @@
         "vendordep"
       ],
       "description": "PathPlanner robot-side vendor library for autonomous path following and generation.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/pathplanner/pathplannerlib-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/pathplanner/pathplannerlib-2026.json"
     },
     {
       "id": "photonvision.photonlib",
@@ -215,7 +215,7 @@
         "vendordep"
       ],
       "description": "PhotonVision vendor library for vision-based pose estimation and AprilTag detection.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/photonvision/photonlib-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/photonvision/photonlib-2026.json"
     },
     {
       "id": "community.yagsl",
@@ -232,7 +232,7 @@
         "vendordep"
       ],
       "description": "Yet Another Generic Swerve Library - simplifies swerve drive configuration and control.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/community/yagsl-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/community/yagsl-2026.json"
     },
     {
       "id": "community.advantagekit",
@@ -250,7 +250,7 @@
         "vendordep"
       ],
       "description": "Logging and simulation replay framework for FRC robot programs.",
-      "manifestUrl": "https://raw.githubusercontent.com/wpilibsuite/vendor-json-repo/main/packages/community/advantagekit-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/community/advantagekit-2026.json"
     }
   ]
 }
