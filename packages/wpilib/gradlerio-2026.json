@@ -28,7 +28,7 @@
     "universal": {
       "url": "https://frcmaven.wpi.edu/artifactory/release/edu/wpi/first/GradleRIO/2026.2.1/GradleRIO-2026.2.1.zip",
       "sha256": "placeholder-gradlerio-universal",
-      "size": 25000000,
+      "size": 50000000,
       "archiveType": "zip"
     }
   },

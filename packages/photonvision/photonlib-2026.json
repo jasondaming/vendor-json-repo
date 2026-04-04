@@ -20,7 +20,8 @@
     "universal": {
       "url": "https://maven.photonvision.org/repository/internal/org/photonvision/photonlib-json/1.0/photonlib-json-1.0.json",
       "sha256": "placeholder-photonlib-universal",
-      "size": 4000
+      "size": 4000,
+      "totalMavenSize": 45000000
     }
   },
   "mavenArtifacts": {

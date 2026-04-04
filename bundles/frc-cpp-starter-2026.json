@@ -22,9 +22,24 @@
       "reason": "Core WPILib framework and build system"
     },
     {
-      "id": "wpilib.tools",
+      "id": "wpilib.glass",
       "inclusion": "Default",
-      "reason": "Glass, SysId, and other development tools"
+      "reason": "Real-time robot telemetry viewer"
+    },
+    {
+      "id": "wpilib.sysid",
+      "inclusion": "Default",
+      "reason": "System identification for mechanism tuning"
+    },
+    {
+      "id": "wpilib.outlineviewer",
+      "inclusion": "Default",
+      "reason": "NetworkTables tree viewer for debugging"
+    },
+    {
+      "id": "wpilib.datalogtool",
+      "inclusion": "Default",
+      "reason": "DataLog download and conversion"
     },
     {
       "id": "wpilib.advantagescope",

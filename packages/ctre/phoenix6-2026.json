@@ -20,7 +20,8 @@
     "universal": {
       "url": "https://maven.ctr-electronics.com/release/com/ctre/phoenix6/latest/Phoenix6-frc2026-latest.json",
       "sha256": "placeholder-phoenix6-universal",
-      "size": 15000
+      "size": 15000,
+      "totalMavenSize": 150000000
     }
   },
   "mavenArtifacts": {

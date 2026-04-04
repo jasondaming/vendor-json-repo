@@ -1,0 +1,49 @@
+{
+  "id": "wpilib.glass",
+  "name": "Glass 2026.2.1",
+  "version": "2026.2.1",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Robot telemetry viewer for real-time NetworkTables data, field visualization, and mechanism display.",
+  "category": "tool",
+  "tags": [
+    "glass",
+    "telemetry",
+    "networktables",
+    "visualization"
+  ],
+  "competition": "Frc",
+  "license": "BSD-3-Clause",
+  "homepage": "https://docs.wpilib.org/en/stable/docs/software/dashboards/glass/index.html",
+  "repository": "https://github.com/wpilibsuite/allwpilib",
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Glass-v2026.2.1-windowsx86-64.zip",
+      "sha256": "placeholder-glass-windows-x64",
+      "size": 47000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Glass-v2026.2.1-linuxx86-64.zip",
+      "sha256": "placeholder-glass-linux-x64",
+      "size": 45000000,
+      "archiveType": "zip"
+    },
+    "macos-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Glass-v2026.2.1-osxx86-64.zip",
+      "sha256": "placeholder-glass-macos-x64",
+      "size": 44000000,
+      "archiveType": "zip"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Glass-v2026.2.1-osxarm64.zip",
+      "sha256": "placeholder-glass-macos-arm64",
+      "size": 43000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "tools/glass",
+    "requiresAdmin": false
+  }
+}

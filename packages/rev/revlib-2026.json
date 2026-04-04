@@ -20,7 +20,8 @@
     "universal": {
       "url": "https://software-metadata.revrobotics.com/REVLib-2026.json",
       "sha256": "placeholder-revlib-universal",
-      "size": 5000
+      "size": 5000,
+      "totalMavenSize": 85000000
     }
   },
   "mavenArtifacts": {

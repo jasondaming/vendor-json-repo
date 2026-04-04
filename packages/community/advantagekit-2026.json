@@ -21,7 +21,8 @@
     "universal": {
       "url": "https://github.com/Mechanical-Advantage/AdvantageKit/releases/latest/download/AdvantageKit.json",
       "sha256": "placeholder-akit-universal",
-      "size": 3000
+      "size": 3000,
+      "totalMavenSize": 25000000
     }
   },
   "mavenArtifacts": {

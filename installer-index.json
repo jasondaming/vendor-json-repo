@@ -61,7 +61,8 @@
         "runtime"
       ],
       "description": "Eclipse Temurin JDK 17 for FRC Java development.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/jdk-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/jdk-2026.json",
+      "totalSize": { "windows-x64": 191000000, "linux-x64": 188000000, "linux-arm64": 185000000, "macos-x64": 187000000, "macos-arm64": 185000000 }
     },
     {
       "id": "wpilib.vscode",
@@ -77,7 +78,8 @@
         "ide"
       ],
       "description": "Visual Studio Code editor configured for FRC development with WPILib extensions.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/vscode-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/vscode-2026.json",
+      "totalSize": { "windows-x64": 131000000, "linux-x64": 130000000, "linux-arm64": 128000000, "macos-x64": 129000000, "macos-arm64": 127000000 }
     },
     {
       "id": "wpilib.gradlerio",
@@ -94,11 +96,12 @@
         "framework"
       ],
       "description": "WPILib core framework and GradleRIO build plugin for FRC robot development.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/gradlerio-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/gradlerio-2026.json",
+      "totalSize": { "universal": 50000000 }
     },
     {
-      "id": "wpilib.tools",
-      "name": "WPILib Tools 2026.2.1",
+      "id": "wpilib.glass",
+      "name": "Glass 2026.2.1",
       "season": 2026,
       "version": "2026.2.1",
       "category": "tool",
@@ -106,12 +109,121 @@
       "publisherId": "wpilib",
       "tags": [
         "glass",
-        "sysid",
-        "robotbuilder",
-        "tools"
+        "telemetry",
+        "networktables",
+        "visualization"
       ],
-      "description": "WPILib tools suite: Glass, OutlineViewer, SysId, RobotBuilder, DataLogTool.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/tools-2026.json"
+      "description": "Robot telemetry viewer for real-time NetworkTables data, field visualization, and mechanism display.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/glass-2026.json",
+      "totalSize": { "windows-x64": 47000000, "linux-x64": 45000000, "macos-x64": 44000000, "macos-arm64": 43000000 }
+    },
+    {
+      "id": "wpilib.sysid",
+      "name": "SysId 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "sysid",
+        "characterization",
+        "feedforward",
+        "tuning"
+      ],
+      "description": "System identification tool for characterizing robot mechanisms and generating feedforward/feedback gains.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/sysid-2026.json",
+      "totalSize": { "windows-x64": 42000000, "linux-x64": 40000000, "macos-x64": 39000000, "macos-arm64": 38000000 }
+    },
+    {
+      "id": "wpilib.shuffleboard",
+      "name": "Shuffleboard 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "dashboard",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "shuffleboard",
+        "dashboard",
+        "networktables",
+        "widgets"
+      ],
+      "description": "Java-based FRC dashboard with drag-and-drop widgets for NetworkTables data display and robot control.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/shuffleboard-2026.json",
+      "totalSize": { "windows-x64": 115000000, "linux-x64": 112000000, "macos-x64": 108000000, "macos-arm64": 106000000 }
+    },
+    {
+      "id": "wpilib.smartdashboard",
+      "name": "SmartDashboard 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "dashboard",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "smartdashboard",
+        "dashboard",
+        "networktables",
+        "classic"
+      ],
+      "description": "Classic FRC dashboard for displaying and interacting with NetworkTables data from the robot.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/smartdashboard-2026.json",
+      "totalSize": { "windows-x64": 32000000, "linux-x64": 30000000, "macos-x64": 29000000, "macos-arm64": 28000000 }
+    },
+    {
+      "id": "wpilib.outlineviewer",
+      "name": "OutlineViewer 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "outlineviewer",
+        "networktables",
+        "debugging",
+        "viewer"
+      ],
+      "description": "Lightweight NetworkTables tree viewer for inspecting and editing robot data in real time.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/outlineviewer-2026.json",
+      "totalSize": { "windows-x64": 37000000, "linux-x64": 35000000, "macos-x64": 34000000, "macos-arm64": 33000000 }
+    },
+    {
+      "id": "wpilib.datalogtool",
+      "name": "DataLogTool 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "datalogtool",
+        "datalog",
+        "logging",
+        "converter"
+      ],
+      "description": "Utility for downloading, converting, and viewing WPILib DataLog files from the roboRIO.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/datalogtool-2026.json",
+      "totalSize": { "windows-x64": 37000000, "linux-x64": 35000000, "macos-x64": 34000000, "macos-arm64": 33000000 }
+    },
+    {
+      "id": "wpilib.robobuilder",
+      "name": "RoboBuilder 2026.2.1",
+      "season": 2026,
+      "version": "2026.2.1",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "wpilib",
+      "tags": [
+        "robobuilder",
+        "robotbuilder",
+        "scaffolding",
+        "code-generation"
+      ],
+      "description": "Graphical tool for generating command-based robot project scaffolding from a subsystem diagram.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/robobuilder-2026.json",
+      "totalSize": { "windows-x64": 52000000, "linux-x64": 50000000, "macos-x64": 48000000, "macos-arm64": 47000000 }
     },
     {
       "id": "wpilib.advantagescope",
@@ -128,7 +240,8 @@
         "visualization"
       ],
       "description": "Robot diagnostics, log review, and data visualization application for FRC.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/advantagescope-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/advantagescope-2026.json",
+      "totalSize": { "windows-x64": 95000000, "linux-x64": 92000000, "linux-arm64": 90000000, "macos-x64": 93000000, "macos-arm64": 91000000 }
     },
     {
       "id": "wpilib.elastic",
@@ -144,7 +257,8 @@
         "telemetry"
       ],
       "description": "Modern, customizable FRC dashboard built with Flutter for real-time robot telemetry.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/elastic-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/wpilib/elastic-2026.json",
+      "totalSize": { "windows-x64": 85000000, "linux-x64": 83000000, "macos-x64": 84000000, "macos-arm64": 82000000 }
     },
     {
       "id": "ctre.phoenix6",
@@ -162,7 +276,8 @@
         "vendordep"
       ],
       "description": "Phoenix 6 vendor library for CTRE motor controllers, sensors, and LED controllers.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/ctre/phoenix6-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/ctre/phoenix6-2026.json",
+      "totalSize": { "universal": 150000000 }
     },
     {
       "id": "rev.revlib",
@@ -180,7 +295,8 @@
         "vendordep"
       ],
       "description": "REV Robotics vendor library for SPARK Flex, SPARK MAX, and Color Sensor V3.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/rev/revlib-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/rev/revlib-2026.json",
+      "totalSize": { "universal": 85000000 }
     },
     {
       "id": "pathplanner.pathplannerlib",
@@ -197,7 +313,8 @@
         "vendordep"
       ],
       "description": "PathPlanner robot-side vendor library for autonomous path following and generation.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/pathplanner/pathplannerlib-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/pathplanner/pathplannerlib-2026.json",
+      "totalSize": { "universal": 20000000 }
     },
     {
       "id": "photonvision.photonlib",
@@ -215,7 +332,8 @@
         "vendordep"
       ],
       "description": "PhotonVision vendor library for vision-based pose estimation and AprilTag detection.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/photonvision/photonlib-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/photonvision/photonlib-2026.json",
+      "totalSize": { "universal": 45000000 }
     },
     {
       "id": "community.yagsl",
@@ -232,7 +350,8 @@
         "vendordep"
       ],
       "description": "Yet Another Generic Swerve Library - simplifies swerve drive configuration and control.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/community/yagsl-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/community/yagsl-2026.json",
+      "totalSize": { "universal": 15000000 }
     },
     {
       "id": "community.advantagekit",
@@ -250,7 +369,8 @@
         "vendordep"
       ],
       "description": "Logging and simulation replay framework for FRC robot programs.",
-      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/community/advantagekit-2026.json"
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/community/advantagekit-2026.json",
+      "totalSize": { "universal": 25000000 }
     }
   ]
 }

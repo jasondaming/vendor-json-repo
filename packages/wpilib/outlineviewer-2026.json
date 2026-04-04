@@ -1,0 +1,49 @@
+{
+  "id": "wpilib.outlineviewer",
+  "name": "OutlineViewer 2026.2.1",
+  "version": "2026.2.1",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Lightweight NetworkTables tree viewer for inspecting and editing robot data in real time.",
+  "category": "tool",
+  "tags": [
+    "outlineviewer",
+    "networktables",
+    "debugging",
+    "viewer"
+  ],
+  "competition": "Frc",
+  "license": "BSD-3-Clause",
+  "homepage": "https://docs.wpilib.org/en/stable/docs/software/wpilib-tools/outlineviewer/index.html",
+  "repository": "https://github.com/wpilibsuite/allwpilib",
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/OutlineViewer-v2026.2.1-windowsx86-64.zip",
+      "sha256": "placeholder-outlineviewer-windows-x64",
+      "size": 37000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/OutlineViewer-v2026.2.1-linuxx86-64.zip",
+      "sha256": "placeholder-outlineviewer-linux-x64",
+      "size": 35000000,
+      "archiveType": "zip"
+    },
+    "macos-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/OutlineViewer-v2026.2.1-osxx86-64.zip",
+      "sha256": "placeholder-outlineviewer-macos-x64",
+      "size": 34000000,
+      "archiveType": "zip"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/OutlineViewer-v2026.2.1-osxarm64.zip",
+      "sha256": "placeholder-outlineviewer-macos-arm64",
+      "size": 33000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "tools/outlineviewer",
+    "requiresAdmin": false
+  }
+}

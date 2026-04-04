@@ -19,7 +19,8 @@
     "universal": {
       "url": "https://3015rangerrobotics.github.io/pathplannerlib/PathplannerLib.json",
       "sha256": "placeholder-pplib-universal",
-      "size": 3000
+      "size": 3000,
+      "totalMavenSize": 20000000
     }
   },
   "mavenArtifacts": {

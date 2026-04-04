@@ -12,9 +12,19 @@
       "reason": "Java runtime for tools"
     },
     {
-      "id": "wpilib.tools",
+      "id": "wpilib.glass",
       "inclusion": "Required",
-      "reason": "Glass and diagnostic utilities"
+      "reason": "Real-time robot telemetry viewer"
+    },
+    {
+      "id": "wpilib.outlineviewer",
+      "inclusion": "Required",
+      "reason": "NetworkTables tree viewer for diagnostics"
+    },
+    {
+      "id": "wpilib.datalogtool",
+      "inclusion": "Required",
+      "reason": "DataLog download and conversion"
     },
     {
       "id": "wpilib.advantagescope",

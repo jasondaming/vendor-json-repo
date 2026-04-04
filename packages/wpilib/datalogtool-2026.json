@@ -1,0 +1,49 @@
+{
+  "id": "wpilib.datalogtool",
+  "name": "DataLogTool 2026.2.1",
+  "version": "2026.2.1",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Utility for downloading, converting, and viewing WPILib DataLog files from the roboRIO.",
+  "category": "tool",
+  "tags": [
+    "datalogtool",
+    "datalog",
+    "logging",
+    "converter"
+  ],
+  "competition": "Frc",
+  "license": "BSD-3-Clause",
+  "homepage": "https://docs.wpilib.org/en/stable/docs/software/telemetry/datalog-download.html",
+  "repository": "https://github.com/wpilibsuite/allwpilib",
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/DataLogTool-v2026.2.1-windowsx86-64.zip",
+      "sha256": "placeholder-datalogtool-windows-x64",
+      "size": 37000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/DataLogTool-v2026.2.1-linuxx86-64.zip",
+      "sha256": "placeholder-datalogtool-linux-x64",
+      "size": 35000000,
+      "archiveType": "zip"
+    },
+    "macos-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/DataLogTool-v2026.2.1-osxx86-64.zip",
+      "sha256": "placeholder-datalogtool-macos-x64",
+      "size": 34000000,
+      "archiveType": "zip"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/DataLogTool-v2026.2.1-osxarm64.zip",
+      "sha256": "placeholder-datalogtool-macos-arm64",
+      "size": 33000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "tools/datalogtool",
+    "requiresAdmin": false
+  }
+}

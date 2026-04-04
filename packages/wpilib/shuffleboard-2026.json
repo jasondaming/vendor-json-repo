@@ -1,0 +1,57 @@
+{
+  "id": "wpilib.shuffleboard",
+  "name": "Shuffleboard 2026.2.1",
+  "version": "2026.2.1",
+  "season": 2026,
+  "publisher": "wpilib",
+  "description": "Java-based FRC dashboard with drag-and-drop widgets for NetworkTables data display and robot control.",
+  "category": "dashboard",
+  "tags": [
+    "shuffleboard",
+    "dashboard",
+    "networktables",
+    "widgets"
+  ],
+  "competition": "Frc",
+  "license": "BSD-3-Clause",
+  "homepage": "https://docs.wpilib.org/en/stable/docs/software/dashboards/shuffleboard/index.html",
+  "repository": "https://github.com/wpilibsuite/allwpilib",
+  "dependencies": [
+    {
+      "id": "wpilib.jdk",
+      "versionRange": ">=17.0.0",
+      "type": "Required",
+      "reason": "Java runtime required for Shuffleboard"
+    }
+  ],
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Shuffleboard-v2026.2.1-windowsx86-64.zip",
+      "sha256": "placeholder-shuffleboard-windows-x64",
+      "size": 115000000,
+      "archiveType": "zip"
+    },
+    "linux-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Shuffleboard-v2026.2.1-linuxx86-64.zip",
+      "sha256": "placeholder-shuffleboard-linux-x64",
+      "size": 112000000,
+      "archiveType": "zip"
+    },
+    "macos-x64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Shuffleboard-v2026.2.1-osxx86-64.zip",
+      "sha256": "placeholder-shuffleboard-macos-x64",
+      "size": 108000000,
+      "archiveType": "zip"
+    },
+    "macos-arm64": {
+      "url": "https://github.com/wpilibsuite/allwpilib/releases/download/v2026.2.1/Shuffleboard-v2026.2.1-osxarm64.zip",
+      "sha256": "placeholder-shuffleboard-macos-arm64",
+      "size": 106000000,
+      "archiveType": "zip"
+    }
+  },
+  "install": {
+    "installDir": "tools/shuffleboard",
+    "requiresAdmin": false
+  }
+}
