@@ -296,6 +296,7 @@
         "diagnostics"
       ],
       "description": "Standalone configuration and diagnostic tool for CTRE devices. Requires admin for driver installation.",
+      "requiresAdmin": true,
       "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/ctre/phoenix-tuner-2026.json",
       "totalSize": { "windows-x64": 262144000, "macos-arm64": 251658240, "macos-x64": 262144000 }
     },
@@ -334,6 +335,7 @@
         "diagnostics"
       ],
       "description": "Configuration and firmware update tool for REV devices. Windows only.",
+      "requiresAdmin": true,
       "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/rev/hardware-client-2026.json",
       "totalSize": { "windows-x64": 188743680 }
     },
