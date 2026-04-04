@@ -85,6 +85,16 @@
       "id": "community.advantagekit",
       "inclusion": "Optional",
       "reason": "Advanced logging and simulation replay"
+    },
+    {
+      "id": "ctre.phoenix-tuner",
+      "inclusion": "Optional",
+      "reason": "Configuration and diagnostic tool for CTRE devices"
+    },
+    {
+      "id": "rev.hardware-client",
+      "inclusion": "Optional",
+      "reason": "Configuration and firmware update tool for REV devices (Windows only)"
     }
   ]
 }

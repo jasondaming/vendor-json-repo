@@ -275,9 +275,29 @@
         "canbus",
         "vendordep"
       ],
-      "description": "Phoenix 6 vendor library for CTRE motor controllers, sensors, and LED controllers.",
+      "description": "Phoenix 6 vendor library for robot code. Add to your robot project to control CTRE motors and sensors. For device configuration, also install Phoenix Tuner X.",
       "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/ctre/phoenix6-2026.json",
       "totalSize": { "universal": 150000000 }
+    },
+    {
+      "id": "ctre.phoenix-tuner",
+      "name": "Phoenix Tuner X",
+      "season": 2026,
+      "version": "2026.1.0",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "ctre",
+      "tags": [
+        "ctre",
+        "phoenix-tuner",
+        "tuner",
+        "configuration",
+        "firmware",
+        "diagnostics"
+      ],
+      "description": "Standalone configuration and diagnostic tool for CTRE devices. Requires admin for driver installation.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/ctre/phoenix-tuner-2026.json",
+      "totalSize": { "windows-x64": 262144000, "macos-arm64": 251658240, "macos-x64": 262144000 }
     },
     {
       "id": "rev.revlib",
@@ -294,9 +314,28 @@
         "motor-controller",
         "vendordep"
       ],
-      "description": "REV Robotics vendor library for SPARK Flex, SPARK MAX, and Color Sensor V3.",
+      "description": "REVLib vendor library for robot code. Add to your robot project to control REV SPARK motors and sensors. For device configuration, also install REV Hardware Client.",
       "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/rev/revlib-2026.json",
       "totalSize": { "universal": 85000000 }
+    },
+    {
+      "id": "rev.hardware-client",
+      "name": "REV Hardware Client",
+      "season": 2026,
+      "version": "2026.1.0",
+      "category": "tool",
+      "competition": "Frc",
+      "publisherId": "rev",
+      "tags": [
+        "rev",
+        "hardware-client",
+        "configuration",
+        "firmware",
+        "diagnostics"
+      ],
+      "description": "Configuration and firmware update tool for REV devices. Windows only.",
+      "manifestUrl": "https://raw.githubusercontent.com/jasondaming/vendor-json-repo/main/packages/rev/hardware-client-2026.json",
+      "totalSize": { "windows-x64": 188743680 }
     },
     {
       "id": "pathplanner.pathplannerlib",

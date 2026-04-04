@@ -1,0 +1,41 @@
+{
+  "id": "rev.hardware-client",
+  "name": "REV Hardware Client",
+  "version": "2026.1.0",
+  "season": 2026,
+  "publisher": "rev",
+  "description": "Configuration and firmware update tool for REV devices. Windows only. Use to configure, test, and update firmware on SPARK MAX, SPARK Flex, and other REV hardware. Requires admin for driver installation.",
+  "category": "tool",
+  "tags": [
+    "rev",
+    "hardware-client",
+    "configuration",
+    "firmware",
+    "diagnostics",
+    "spark"
+  ],
+  "competition": "Frc",
+  "license": "Proprietary",
+  "homepage": "https://docs.revrobotics.com/rev-hardware-client",
+  "install": {
+    "requiresAdmin": true,
+    "postInstall": [
+      {
+        "action": "installDriver",
+        "platform": "windows",
+        "params": {
+          "driver": "rev-usb-driver"
+        }
+      }
+    ]
+  },
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://software-metadata.revrobotics.com/downloads/REVHardwareClient/2026.1.0/REV-Hardware-Client-Setup-2026.1.0.exe",
+      "sha256": "placeholder-rev-hardware-client-win-x64",
+      "size": 188743680,
+      "archiveType": "exe",
+      "filename": "REV-Hardware-Client-Setup-2026.1.0.exe"
+    }
+  }
+}

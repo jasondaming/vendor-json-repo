@@ -4,7 +4,7 @@
   "version": "2026.0.1",
   "season": 2026,
   "publisher": "rev",
-  "description": "REV Robotics vendor library for SPARK Flex, SPARK MAX, and Color Sensor V3.",
+  "description": "REVLib vendor library for robot code. Add to your robot project to control REV SPARK motors and sensors. For device configuration, also install REV Hardware Client.",
   "category": "library",
   "tags": [
     "rev",

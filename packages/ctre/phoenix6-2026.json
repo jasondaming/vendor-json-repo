@@ -4,7 +4,7 @@
   "version": "26.1.0",
   "season": 2026,
   "publisher": "ctre",
-  "description": "Phoenix 6 vendor library for CTRE motor controllers, sensors, and LED controllers.",
+  "description": "Phoenix 6 vendor library for robot code. Add to your robot project to control CTRE motors and sensors. For device configuration, also install Phoenix Tuner X.",
   "category": "library",
   "tags": [
     "ctre",

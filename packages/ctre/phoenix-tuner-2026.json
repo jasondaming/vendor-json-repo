@@ -1,0 +1,56 @@
+{
+  "id": "ctre.phoenix-tuner",
+  "name": "Phoenix Tuner X",
+  "version": "2026.1.0",
+  "season": 2026,
+  "publisher": "ctre",
+  "description": "Standalone configuration and diagnostic tool for CTRE devices. Requires admin for driver installation. Use to configure, test, and update firmware on TalonFX, CANcoder, Pigeon 2, and CANdle. Distributed as MSIX on Windows and DMG on macOS.",
+  "category": "tool",
+  "tags": [
+    "ctre",
+    "phoenix-tuner",
+    "tuner",
+    "configuration",
+    "firmware",
+    "diagnostics",
+    "canbus"
+  ],
+  "competition": "Frc",
+  "license": "Proprietary",
+  "homepage": "https://store.ctr-electronics.com/software/",
+  "install": {
+    "requiresAdmin": true,
+    "postInstall": [
+      {
+        "action": "installDriver",
+        "platform": "windows",
+        "params": {
+          "driver": "ctre-canbus-driver"
+        }
+      }
+    ]
+  },
+  "artifacts": {
+    "windows-x64": {
+      "url": "https://api.ctr-electronics.com/downloads/PhoenixTunerX/2026.1.0/PhoenixTunerX-2026.1.0-win-x64.msix",
+      "sha256": "placeholder-phoenix-tuner-win-x64",
+      "size": 262144000,
+      "archiveType": "msix",
+      "filename": "PhoenixTunerX-2026.1.0-win-x64.msix"
+    },
+    "macos-arm64": {
+      "url": "https://api.ctr-electronics.com/downloads/PhoenixTunerX/2026.1.0/PhoenixTunerX-2026.1.0-macOS-arm64.dmg",
+      "sha256": "placeholder-phoenix-tuner-macos-arm64",
+      "size": 251658240,
+      "archiveType": "dmg",
+      "filename": "PhoenixTunerX-2026.1.0-macOS-arm64.dmg"
+    },
+    "macos-x64": {
+      "url": "https://api.ctr-electronics.com/downloads/PhoenixTunerX/2026.1.0/PhoenixTunerX-2026.1.0-macOS-x64.dmg",
+      "sha256": "placeholder-phoenix-tuner-macos-x64",
+      "size": 262144000,
+      "archiveType": "dmg",
+      "filename": "PhoenixTunerX-2026.1.0-macOS-x64.dmg"
+    }
+  }
+}
